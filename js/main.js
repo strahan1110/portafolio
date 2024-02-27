@@ -77,3 +77,29 @@
     });
 })(jQuery);
 
+function submitForm() {
+    const name = document.getElementById("name").value;
+    const email = document.getElementById("email").value;
+    const subject= document.getElementById("subject").value;
+    const message = document.getElementById("message").value;
+ 
+    emailjs.send("service_rd00sxv", {
+       from_name: name,
+       from_email: email,
+       from_subject: subject,
+       message: message,
+    })
+    .then(
+       function(response) {
+          console.log("Correo enviado satisfactoriamente:", response);
+          // Redirect to a thank you page or display a success message
+          window.location.href = "#header";
+       },
+       function(error) {
+          console.error("Error enviando email:", error);
+          alert("Se encontró un error al enviar el formulario");
+       }
+    );
+ }
+ 
+
