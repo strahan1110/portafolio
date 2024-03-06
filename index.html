@@ -23,6 +23,7 @@
         <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
   />
+  <script src="https://js.hcaptcha.com/1/api.js" async defer></script>
 
         <!-- Template Stylesheet -->
         <link href="css/style.css" rel="stylesheet">
@@ -64,9 +65,9 @@
                     </nav>
                 </div>
                 <div class="sidebar-footer">
-                    <a href="#"><i class="fab fa-twitter"></i></a>
-                    <a href="#"><i class="fab fa-facebook-f"></i></a>
-                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="https://twitter.com/lajemi97"><i class="fab fa-twitter"></i></a>
+                    <a href="https://www.facebook.com/karlajemima.jangezarate/?locale=es_LA"><i class="fab fa-facebook-f"></i></a>
+                    <a href="https://www.linkedin.com/in/kjemimajange/"><i class="fab fa-linkedin-in"></i></a>
                 </div>
             </div>
             <div class="content">
@@ -92,7 +93,7 @@
                 <!-- Large Button End -->
                 
                 <!-- About Start -->
-                <div class="about" id="about">
+                <div class="about cuadro" id="about">
                     <div class="content-inner">
                         <div class="content-header">
                             <h2>Acerca de mí</h2>
@@ -190,7 +191,7 @@
                 <!-- About End -->
                 <br>
                 <!-- Education Start -->
-                <div class="education" id="education">
+                <div class="education elemento" id="education">
                     <div class="content-inner">
                         <div class="content-header">
                             <h2>Educación</h2>
@@ -218,7 +219,7 @@
                 <br>
                 
                 <!-- Experience Start -->
-                <div class="experience" id="experience">
+                <div class="experience cuadro" id="experience">
                     <div class="content-inner">
                         <div class="content-header">
                             <h2>Experiencia</h2>
@@ -232,6 +233,7 @@
                                     <h5>ATN</h5>
                                     <p>• Diet Service</p>
                                     <p>• Fisiosalinas - República Dominicana</p>
+                                    <p>• Manos Esforzadas - República Dominicana</p>
                                     <p>• Centro Quiropráctico Stumvoll</p>
                                     <p>• Buckner - República Dominicana</p>
                                     <p>• Essential Oils Perú [EOP]</p>
@@ -261,38 +263,53 @@
                 <!-- Experience Start -->
                 <br>
                 <!-- Service Start -->
-                <div class="service" id="service">
+                <div class="service elemento" id="service">
                     <div class="content-inner">
                         <div class="content-header">
-                            <h2>Servicios</h2>
+                            <h2>Servicios que brindo actualmente</h2>
                         </div>
                         <div class="row align-items-center">
                             <div class="col-md-6">
                                 <div class="srv-col">
                                     <i class="fa fa-desktop"></i>
-                                    <h3>Web Design</h3>
-                                    <p>Lorem ipsum dolor sit amet elit suscipit orci. Donec molestie velit id libero.</p>
+                                    <h3>UX Website Design</h3>
+                                    <p>De acuerdo al BrandKit se realiza la propuesta de diseño para la estructura web (completa o solo landings) junto a su prototipado.</p>
                                 </div>
                             </div>
                             <div class="col-md-6">
                                 <div class="srv-col">
                                     <i class="fa fa-laptop"></i>
-                                    <h3>Web Development</h3>
-                                    <p>Lorem ipsum dolor sit amet elit suscipit orci. Donec molestie velit id libero.</p>
+                                    <h3>Desarrollo Web</h3>
+                                    <p>Desde herramientas Low Code  - Personalización de plantillas listas (HTML/CSS/BOOTSTRAP/JS) - Hasta desarrollo web desde cero.</p>
                                 </div>
                             </div>
                             <div class="col-md-6">
                                 <div class="srv-col">
                                     <i class="fa fa-search"></i>
-                                    <h3>SEO</h3>
-                                    <p>Lorem ipsum dolor sit amet elit suscipit orci. Donec molestie velit id libero.</p>
+                                    <h3>Content Design</h3>
+                                    <p>Desarrollo de contenido multimedia de marca [Branding / Flyer / Brochures / Tarjetas de Presentación
+                                        Kit-de-Marca / Diseño de Redes Sociales]</p>
                                 </div>
                             </div>
                             <div class="col-md-6">
                                 <div class="srv-col">
                                     <i class="fa fa-envelope-open-text"></i>
-                                    <h3>Digital Marketing</h3>
-                                    <p>Lorem ipsum dolor sit amet elit suscipit orci. Donec molestie velit id libero.</p>
+                                    <h3>Content Manager</h3>
+                                    <p>Estrategia de Marketing - Relaciones B2B - Auditoría empresarial</p>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="srv-col">
+                                    <i class="fa fa-solid fa-plus"></i>
+                                    <h3>Asesorías de Matemática</h3>
+                                    <p>Clases personalizadas en modalidad remota y presencial.</p>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="srv-col">
+                                    <i class="fa fa-solid fa-chart-area"></i>
+                                    <h3>Reportes / Dashboard</h3>
+                                    <p>Métricas, KPIS en presentaciones visuales para la inteligencia de datos y propuestas de estrategias de negocio</p>
                                 </div>
                             </div>
                         </div>
@@ -301,7 +318,7 @@
                 <!-- Service Start -->
                 <br>
                 <!-- Portfolio Start -->
-                <div class="portfolio" id="portfolio">
+                <div class="portfolio cuadro" id="portfolio">
                     <div class="content-inner">
                         <div class="content-header">
                             <h2>Portafolio</h2>
@@ -318,13 +335,14 @@
                             </div>
                         </div>
                         <div class="row portfolio-container">
+
+
+
                             <div class="col-lg-4 col-md-6 portfolio-item web-des">
                                 <div class="portfolio-wrap">
                                     <figure>
-                                        <img src="img/portfolio-1.jpg" class="img-fluid" alt="">
-                                        <a href="img/portfolio-1.jpg" data-lightbox="portfolio" data-title="Project Name" class="link-preview" title="Preview"><i class="fa fa-eye"></i></a>
-                                        <a href="#" class="link-details" title="More Details"><i class="fa fa-link"></i></a>
-                                        <a class="portfolio-title" href="#">Project Name <span>Web Design</span></a>
+                                        <img src="img/1.png" class="img-fluid" alt="">
+                                        <a class="portfolio-title" href="webdesign.html">Diseño Web UX<span>Prototipado - Maquetación - Atomic Design - Modelos de Landings</span></a>
                                     </figure>
                                 </div>
                             </div>
@@ -332,10 +350,17 @@
                             <div class="col-lg-4 col-md-6 portfolio-item web-des">
                                 <div class="portfolio-wrap">
                                     <figure>
-                                        <img src="img/portfolio-2.jpg" class="img-fluid" alt="">
-                                        <a href="img/portfolio-2.jpg" class="link-preview" data-lightbox="portfolio" data-title="Project Name" title="Preview"><i class="fa fa-eye"></i></a>
-                                        <a href="#" class="link-details" title="More Details"><i class="fa fa-link"></i></a>
-                                        <a class="portfolio-title" href="#">Project Name <span>Web Design</span></a>
+                                        <img src="img/2.png" class="img-fluid" alt="">
+                                        <a class="portfolio-title" href="socialmedia.html">Diseño Digital<span>Portafolio</span></a>
+                                    </figure>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-4 col-md-6 portfolio-item web-des">
+                                <div class="portfolio-wrap">
+                                    <figure>
+                                        <img src="img/3.png" class="img-fluid" alt="">
+                                        <a class="portfolio-title" href="contentmanager.html">Gestión de Contenido<span>Modelos de contenido</span></a>
                                     </figure>
                                 </div>
                             </div>
@@ -343,10 +368,26 @@
                             <div class="col-lg-4 col-md-6 portfolio-item web-dev">
                                 <div class="portfolio-wrap">
                                     <figure>
-                                        <img src="img/portfolio-3.jpg" class="img-fluid" alt="">
-                                        <a href="img/portfolio-3.jpg" class="link-preview" data-lightbox="portfolio" data-title="Project Name" title="Preview"><i class="fa fa-eye"></i></a>
-                                        <a href="#" class="link-details" title="More Details"><i class="fa fa-link"></i></a>
-                                        <a class="portfolio-title" href="#">Project Name <span>Web Development</span></a>
+                                        <img src="img/4.png" class="img-fluid" alt="">
+                                        <a class="portfolio-title" href="https://vaxion.pe/index.php">Vaxion<span>Plantilla Web</span></a>
+                                    </figure>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-4 col-md-6 portfolio-item web-dev">
+                                <div class="portfolio-wrap">
+                                    <figure>
+                                        <img src="img/5.png" class="img-fluid" alt="">
+                                        <a class="portfolio-title" href="https://edwinjange.netlify.com">Edwin Jange<span>Plantilla Web</span></a>
+                                    </figure>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-4 col-md-6 portfolio-item web-dev">
+                                <div class="portfolio-wrap">
+                                    <figure>
+                                        <img src="img/6.png" class="img-fluid" alt="">
+                                        <a class="portfolio-title" href="https://escuchaloquenopuedesver.netlify.app">Proyecto Universitario<span>Web para afrontar la discapacidad visual</span></a>
                                     </figure>
                                 </div>
                             </div>
@@ -354,20 +395,25 @@
                             <div class="col-lg-4 col-md-6 portfolio-item web-dea">
                                 <div class="portfolio-wrap">
                                     <figure>
-                                        <img src="img/portfolio-4.jpg" class="img-fluid" alt="">
-                                        <a href="img/portfolio-4.jpg" class="link-preview" data-lightbox="portfolio" data-title="Project Name" title="Preview"><i class="fa fa-eye"></i></a>
-                                        <a href="#" class="link-details" title="More Details"><i class="fa fa-link"></i></a>
-                                        <a class="portfolio-title" href="#">Project Name <span>Web Development</span></a>
+                                        <img src="img/7.png" class="img-fluid" alt="">
+                                        <a class="portfolio-title" href="https://github.com/strahan1110/empresa-tours.git">Empresa Tours<span>Desarrollo de aplicación - Java (JSP) - Universitario</span></a>
                                     </figure>
                                 </div>
                             </div>
 
-                            <div class="col-lg-4 col-md-6 portfolio-item dig-mar">
+                            <div class="col-lg-4 col-md-6 portfolio-item web-dea">
                                 <div class="portfolio-wrap">
                                     <figure>
-                                        <img src="img/portfolio-5.jpg" class="img-fluid" alt="">
-                                        <a href="img/portfolio-5.jpg" class="link-preview" data-lightbox="portfolio" data-title="Project Name" title="Preview"><i class="fa fa-eye"></i></a>
-                                        <a href="#" class="link-details" title="More Details"><i class="fa fa-link"></i></a>
+                                        <img src="img/8.png" class="img-fluid" alt="">
+                                        <a class="portfolio-title" href="#">Project Name <span>Digital Marketing</span></a>
+                                    </figure>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-4 col-md-6 portfolio-item web-dea">
+                                <div class="portfolio-wrap">
+                                    <figure>
+                                        <img src="img/9.png" class="img-fluid" alt="">
                                         <a class="portfolio-title" href="#">Project Name <span>Digital Marketing</span></a>
                                     </figure>
                                 </div>
@@ -376,10 +422,8 @@
                             <div class="col-lg-4 col-md-6 portfolio-item dig-mar">
                                 <div class="portfolio-wrap">
                                     <figure>
-                                        <img src="img/portfolio-6.jpg" class="img-fluid" alt="">
-                                        <a href="img/portfolio-6.jpg" class="link-preview" data-lightbox="portfolio" data-title="Project Name" title="Preview"><i class="fa fa-eye"></i></a>
-                                        <a href="#" class="link-details" title="More Details"><i class="fa fa-link"></i></a>
-                                        <a class="portfolio-title" href="#">Project Name <span>Digital Marketing</span></a>
+                                        <img src="img/9.png" class="img-fluid" alt="">
+                                        <a class="portfolio-title" href="#">Reporte <span>Digital Marketing</span></a>
                                     </figure>
                                 </div>
                             </div>
@@ -389,7 +433,7 @@
                 <!-- Portfolio Start -->
                 <br>
                 <!-- Review Start -->
-                <div class="review" id="review">
+                <div class="review elemento" id="review">
                     <div class="content-inner">
                         <div class="content-header">
                             <h2>Comentarios</h2>
@@ -433,7 +477,7 @@
                 <!-- Review End -->
                 <br>
                 <!-- Contact Start -->
-                <div class="contact" id="contact">
+                <div class="contact cuadro" id="contact">
                     <div class="content-inner">
                         <div class="content-header">
                             <h2>Contacto</h2>
@@ -457,22 +501,23 @@
                             </div>
                             <div class="col-md-6">
                                 <div class="form">
-                                    <form>
+                                    <form action="https://formcarry.com/s/cRdOCMW70An" method="POST" enctype="multipart/form-data">
                                         <div class="form-row">
                                             <div class="form-group col-md-6">
-                                                <input type="text" id="name" class="form-control" placeholder="Ingresa tu nombre" />
+                                                <input type="text" name="name" id="name" class="form-control" placeholder="Ingresa tu nombre" />
                                             </div>
                                             <div class="form-group col-md-6">
-                                                <input type="email" id="email" class="form-control" placeholder="Ingresa tu Email" />
+                                                <input type="email" name="email" id="email" class="form-control" placeholder="Ingresa tu Email" />
                                             </div>
                                         </div>
                                         <div class="form-group">
-                                            <input type="text" class="form-control" id="subject" placeholder="Título de mensaje" />
+                                            <input type="text" name="subject" class="form-control" id="subject" placeholder="Título de mensaje" />
                                         </div>
                                         <div class="form-group">
-                                            <textarea class="form-control" id=message rows="5" placeholder="Ingresa el mensaje"></textarea>
+                                            <textarea class="form-control" type="text" name="message" id=message rows="5" placeholder="Ingresa el mensaje"></textarea>
                                         </div>
-                                        <div><button class="btn" onclick="submitForm()">Enviar mensaje</button></div>
+                                        <div class="form-group" data-sitekey="ES_17f2a92840d44f8b911f7a37fcd48c88"></div>
+                                        <div><button class="btn" type="submit"">Enviar mensaje</button></div>
                                     </form>
                                 </div>
                             </div>
@@ -481,7 +526,7 @@
                 </div>
                 <!-- Contact End -->
                 <!-- Footer Start -->
-                <div class="footer">
+                <div class="footer elemento">
                     <div class="content-inner">
                         <div class="row align-items-center">
                             <div class="col-md-6">
