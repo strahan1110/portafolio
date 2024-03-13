@@ -559,12 +559,9 @@
         <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
         <script> emailjs.init("service_rd00sxv")</script>
         <script>
-// Selecciona el botón por su ID
 var boton = document.getElementById('botonalerta');
-
-// Agrega un evento de clic al botón
 boton.addEventListener('click', function() {
-    // Muestra un mensaje de alerta
+    event.preventDefault();
     alert('Próxmamente en GITHUB, en proceso de edición');
 });
 </script>
