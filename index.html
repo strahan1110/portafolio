@@ -414,7 +414,7 @@
                                 <div class="portfolio-wrap">
                                     <figure>
                                         <img src="img/9.png" class="img-fluid" alt="">
-                                        <a class="portfolio-title"  id="botonalerta">Proyecto Cine<span>Java POO</span></a>
+                                        <a class="portfolio-title" href="#" id="botonalerta1">Proyecto Cine<span>Java POO</span></a>
                                     </figure>
                                 </div>
                             </div>
@@ -423,7 +423,7 @@
                                 <div class="portfolio-wrap">
                                     <figure>
                                         <img src="img/9.png" class="img-fluid" alt="">
-                                        <a class="portfolio-title"  href="#" id="botonalerta">Reportes <span>EXCEL/POWER BI/TABLEAU</span></a>
+                                        <a class="portfolio-title"  href="#" id="botonalerta2">Reportes <span>EXCEL/POWER BI/TABLEAU</span></a>
                                     </figure>
                                 </div>
                             </div>
@@ -558,8 +558,22 @@
         <script src="lib/lightbox/js/lightbox.min.js"></script>
         <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
         <script> emailjs.init("service_rd00sxv")</script>
-        <script>
+<script>
 var boton = document.getElementById('botonalerta');
+boton.addEventListener('click', function() {
+    event.preventDefault();
+    alert('Próxmamente en GITHUB, en proceso de edición');
+});
+</script>
+<script>
+var boton = document.getElementById('botonalerta1');
+boton.addEventListener('click', function() {
+    event.preventDefault();
+    alert('Próxmamente en GITHUB, en proceso de edición');
+});
+</script>
+<script>
+var boton = document.getElementById('botonalerta2');
 boton.addEventListener('click', function() {
     event.preventDefault();
     alert('Próxmamente en GITHUB, en proceso de edición');
